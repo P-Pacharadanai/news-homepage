@@ -252,6 +252,12 @@ body {
   transition: 0.2s;
 }
 
+.hamburger-menu:hover .bar1,
+.hamburger-menu:hover .bar2,
+.hamburger-menu:hover .bar3 {
+  background-color: var(--soft-red);
+}
+
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
