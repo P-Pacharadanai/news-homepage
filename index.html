@@ -17,14 +17,18 @@
         <div class="logo">
           <a href="#"><img src="/assets/images/logo.svg" alt="logo image" /></a>
         </div>
-        <ul>
+        <ul class="menu" id="menu">
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>
           <li><a href="#">Popular</a></li>
           <li><a href="#">Trending</a></li>
           <li><a href="#">Categories</a></li>
         </ul>
-        <div class="icon-menu"><img src="/assets/images/icon-menu.svg" alt="" /></div>
+        <div class="hamburger-menu" onclick="toggleHamburger(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
       </div>
     </nav>
     <main>
@@ -97,5 +101,7 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
       <a href="https://github.com/P-Pacharadanai" target="_blank">Pacharadanai</a>.
     </div>
+    <div id="body-filter"></div>
+    <script src="script.js"></script>
   </body>
 </html>
